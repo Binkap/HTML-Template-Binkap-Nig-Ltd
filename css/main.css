@@ -1,0 +1,101 @@
+!
+
+/* Main.css from here */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--main-font), sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    
+    /* F O N T S */
+    --title-font: "Quicksand", sans-serif;
+    --main-font: "Open Sans", sans-serif;
+
+    /* T H E M E C O L O R */
+    --black: #0B0C10;
+    --basic: #1F2833;
+    --pale: #C5C6C7;
+    --theme-teal: #66FCF1;
+    --theme-cyan: #45A29E; 
+
+}
+body {
+    background: url("https://images.pexels.com/photos/1129253/pexels-photo-1129253.jpeg?auto=compress&cs=tinysrgb&h=5184&w=3456") no-repeat;
+    height: 100%;
+    font-size: 14px;
+    color: #FFF;
+    background-attachment: fixed;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+    margin: 20px 5px;
+}
+header {
+    margin-top: 10px;
+   border-bottom: 2px solid var(--theme-cyan);
+}
+
+/* Title */
+
+header h3 {
+    margin-left: 5vw;
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+#contactform{
+
+}
+#newsletter {
+background: black;
+display: inline-block;
+padding: 30px;
+margin-left: 25px;
+border: 1px solid var(--theme-cyan);
+min-height: 270px;
+max-width: 300px;
+}
+.subscribe{
+ width: 120px;
+height: 40px;
+padding: 10px;
+margin: 20px;
+background: var(--theme-cyan);
+border: 1px solid green;
+}
+
+.submit{
+ width: 120px;
+height: 40px;
+padding: 10px;
+margin: 20px;
+background: var(--theme-cyan);
+border: 1px solid green;
+}
+.start{
+ width: 120px;
+height: 40px;
+padding: 10px;
+margin: 5px;
+background: var(--theme-cyan);
+border: 1px solid green;
+}
+#address{
+
+text-align: left;
+}
+.seek{
+padding: 5px;
+background: var(--theme-cyan);
+color: #fff;
+min-width: 100px;
+min-height: 40px;
+border: 1px solid green;
+border-radius: 15px;
+font-size: 16px;
+}
+
+
+
